@@ -19,14 +19,14 @@
 * HTTP/2 menggunakan algoritma kompresi sehingga request menjadi lebih ringan dan HTTP/2 mendukung multiplexing sehingga dapat mengirim beberapa request dalam satu connection yang sama
 
 #### HTTP Method
-* [GET](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#GET)
-* [POST](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#POST)
-* [PUT](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#PUT)
-* [DELETE](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#DELETE)
-* [PATCH](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#PATCH)
-* [HEAD](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#HEAD)
-* [OPTION](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#OPTION)
-* [TRACE](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#TRACE)
+* [GET](https://github.com/ekasaputrayogi/HTTP-Tutorial#get)
+* [POST](https://github.com/ekasaputrayogi/HTTP-Tutorial#post)
+* [PUT](https://github.com/ekasaputrayogi/HTTP-Tutorial#put)
+* [DELETE](https://github.com/ekasaputrayogi/HTTP-Tutorial#delete)
+* [PATCH](https://github.com/ekasaputrayogi/HTTP-Tutorial#patch)
+* [HEAD](https://github.com/ekasaputrayogi/HTTP-Tutorial#head)
+* [OPTION](https://github.com/ekasaputrayogi/HTTP-Tutorial#option)
+* [TRACE](https://github.com/ekasaputrayogi/HTTP-Tutorial#trace)
 
 #### HTTPS
 * HTTPS merupakan HTTP yang ter-enkripsi
