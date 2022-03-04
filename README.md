@@ -18,13 +18,15 @@
 * HTTP/1.1 dan HTTP/2 secara garis besar sama, hanya pada HTTP/2 Request yang dikirimkan dalam bentuk text diubah menjadi binary sehinggan lebih cepat dibandingkan HTTP/1.1
 * HTTP/2 menggunakan algoritma kompresi sehingga request menjadi lebih ringan dan HTTP/2 mendukung multiplexing sehingga dapat mengirim beberapa request dalam satu connection yang sama
 
-#### SYNTAX
-* [GET]
+#### HTTP Method
+* [GET](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#GET)
 * [POST]
 * [PUT]
 * [DELETE]
+* [PATCH]
 * [HEAD]
 * [OPTION]
+* [TRACE]
 
 #### HTTPS
 * HTTPS merupakan HTTP yang ter-enkripsi
@@ -35,5 +37,30 @@
 * TCP, untuk melakukan koneksi pada HTTP
 * IP, adress untuk identitas jaringan
 * URL (Uniform Resource Locator), alamat dari sebuah resource web
+![image.png]( {https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png} )
 * DNS (Domain Name Server), tempat untuk menyimpan katalog pemetaan antara nama domain di URL menuju lokasi IP komputer
 * Web Server, untuk menerima request dari client dan mengirim informasi pada client.
+
+#### GET
+GET digunakan untuk melakukan REQUEST data. REQUEST menggunakan GET hanya untuk menerima data, bukan untuk mengirim data
+
+#### POST
+POST digunakan untuk mengirim data ke server. POST biasanya digunakan untuk mengirim data baru sehingga biasanya memiliki request body
+
+#### PUT
+PUT digunakan untuk mengganti semua data yang terdapat di server dengan data baru yang dikirim di request
+
+#### DELETE
+DELETE digunakan untuk menghapus data
+
+#### PATCH
+PATCH digunakan untuk mengubah sebagian data
+
+#### HEAD
+HEAD digunakan seperti GET, tapi tanpa membutuhkan response body
+
+#### OPTION
+OPTION digunakan untuk mendeskripsikan opsi komunikasi yang tersedia
+
+#### TRACE
+TRACE digunakan untuk melakukan debugging, response TRACE akan mengembalikan seluruh informasi yang dikirim oleh client
