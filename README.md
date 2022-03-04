@@ -41,26 +41,26 @@
 * DNS (Domain Name Server), tempat untuk menyimpan katalog pemetaan antara nama domain di URL menuju lokasi IP komputer
 * Web Server, untuk menerima request dari client dan mengirim informasi pada client.
 
-#### GET
+## GET
 GET digunakan untuk melakukan REQUEST data. REQUEST menggunakan GET hanya untuk menerima data, bukan untuk mengirim data
 
-#### POST
+## POST
 POST digunakan untuk mengirim data ke server. POST biasanya digunakan untuk mengirim data baru sehingga biasanya memiliki request body
 
-#### PUT
+## PUT
 PUT digunakan untuk mengganti semua data yang terdapat di server dengan data baru yang dikirim di request
 
-#### DELETE
+## DELETE
 DELETE digunakan untuk menghapus data
 
-#### PATCH
+## PATCH
 PATCH digunakan untuk mengubah sebagian data
 
-#### HEAD
+## HEAD
 HEAD digunakan seperti GET, tapi tanpa membutuhkan response body
 
-#### OPTION
+## OPTION
 OPTION digunakan untuk mendeskripsikan opsi komunikasi yang tersedia
 
-#### TRACE
+## TRACE
 TRACE digunakan untuk melakukan debugging, response TRACE akan mengembalikan seluruh informasi yang dikirim oleh client
