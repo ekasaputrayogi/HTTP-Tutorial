@@ -37,7 +37,7 @@
 * TCP, untuk melakukan koneksi pada HTTP
 * IP, adress untuk identitas jaringan
 * URL (Uniform Resource Locator), alamat dari sebuah resource web
-![mdn-url-all.png]( {https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png} )
+![mdn-url-all.png]( {https://github.com/ekasaputrayogi/HTTP-Tutorial/tree/master/Gambar} )
 * DNS (Domain Name Server), tempat untuk menyimpan katalog pemetaan antara nama domain di URL menuju lokasi IP komputer
 * Web Server, untuk menerima request dari client dan mengirim informasi pada client.
 
