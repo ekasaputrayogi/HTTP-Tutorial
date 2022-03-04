@@ -13,8 +13,6 @@
 * HTTP memiliki fitur bernama HTTP Cookie
 * HTTP Cookie berfungsi untuk menyimpan informasi yang diberikan oleh server
 #### HTTP Version
-##### HTTP/1.1
-##### HTTP/2
 ###### HTTP/1.1 vs HTTP/2
 * HTTP/1.1 merupakan fallback protocol, Web Browser secara default akan menggunakan HTTP/2. Jika Web Server tidak mendukung HTTP/2, makan Web Browser akan menggunakan HTTP/1.1
 * HTTP/1.1 dan HTTP/2 secara garis besar sama, hanya pada HTTP/2 Request yang dikirimkan dalam bentuk text diubah menjadi binary sehinggan lebih cepat dibandingkan HTTP/1.1
