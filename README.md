@@ -20,13 +20,13 @@
 
 #### HTTP Method
 * [GET](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#GET)
-* [POST]
-* [PUT]
-* [DELETE]
-* [PATCH]
-* [HEAD]
-* [OPTION]
-* [TRACE]
+* [POST](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#POST)
+* [PUT](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#PUT)
+* [DELETE](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#DELETE)
+* [PATCH](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#PATCH)
+* [HEAD](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#HEAD)
+* [OPTION](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#OPTION)
+* [TRACE](https://github.com/ekasaputrayogi/HTTP-Tutorial/README#TRACE)
 
 #### HTTPS
 * HTTPS merupakan HTTP yang ter-enkripsi
