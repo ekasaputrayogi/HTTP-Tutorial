@@ -127,3 +127,8 @@ HTTP Status merupakan kode HTTP Response yang memberi informasi kepada client
 * Redirect (300-399)
 * Client Error (400-499)
 * Server Error (500-599)
+
+#### CARA MELIHAT HTTP REQUEST DAN RESPONSE PADA BROWSER
+* Tekan ctrl + shift + C
+* klik network
+![browser1.png](https://github.com/ekasaputrayogi/HTTP-Tutorial/blob/master/Gambar/browser1.png)
