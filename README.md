@@ -43,19 +43,40 @@
 
 ## GET
 GET digunakan untuk melakukan REQUEST data. REQUEST menggunakan GET hanya untuk menerima data, bukan untuk mengirim data
-
+Contoh:
+'''
+GET http://www.example.com/customers/12345
+GET http://www.example.com/customers/12345/orders
+'''
 ## POST
 POST digunakan untuk mengirim data ke server. POST biasanya digunakan untuk mengirim data baru sehingga biasanya memiliki request body
+Contoh:
+'''
+POST http://www.example.com/customers
+POST http://www.example.com/customers/12345/orders
+'''
 
 ## PUT
 PUT digunakan untuk mengganti semua data yang terdapat di server dengan data baru yang dikirim di request
-
+Contoh:
+'''
+PUT http://www.example.com/customers/12345
+PUT http://www.example.com/customers/12345/orders/98765
+'''
 ## DELETE
 DELETE digunakan untuk menghapus data
+Contoh:
+'''
+DELETE http://www.example.com/customers/12345
+'''
 
 ## PATCH
 PATCH digunakan untuk mengubah sebagian data
-
+Contoh:
+'''
+PATCH http://www.example.com/customers/12345
+PATCH http://www.example.com/customers/12345/orders/98765
+'''
 ## HEAD
 HEAD digunakan seperti GET, tapi tanpa membutuhkan response body
 
@@ -64,3 +85,45 @@ OPTION digunakan untuk mendeskripsikan opsi komunikasi yang tersedia
 
 ## TRACE
 TRACE digunakan untuk melakukan debugging, response TRACE akan mengembalikan seluruh informasi yang dikirim oleh client
+
+## HTTP MESSAGE
+'''
+POST /login HTTP/1.1
+Host: example.com
+Connection: keep-alive
+accept: application/json
+User-Agent: Mozzila/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+Content-Type: application/json
+Content-Length: 51
+
+{"password": "rahasia", "username": "yogi"}
+'''
+#### START LINE
+'''
+POST /login HTTP/1.1
+'''
+#### HTTP HEADER
+* Host: Authority pada URL
+* Content-Type: Tipe data dari HTTP Body
+* User-Agent: Informasi user agent (seperti browser dan OS)
+* Accept: Tipe data yang diterima oleh Client
+* Authorization: Credential untuk autentikasi (misal usernam + password)
+'''
+Host: example.com
+Connection: keep-alive
+Accept: application/json
+User-Agent: Mozzila/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+Content-Type: application/json
+Content-Length: 51
+'''
+#### HTTP BODY
+'''
+{"password": "rahasia", "username": "yogi"}
+'''
+#### HTTP STATUS
+HTTP Status merupakan kode HTTP Response yang memberi informasi kepada client
+* Informational Response (100-199)
+* Succesfull Response (200-299)
+* Redirect (300-399)
+* Client Error (400-499)
+* Server Error (500-599)
