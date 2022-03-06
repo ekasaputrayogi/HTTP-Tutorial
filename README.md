@@ -87,7 +87,7 @@ OPTION digunakan untuk mendeskripsikan opsi komunikasi yang tersedia
 TRACE digunakan untuk melakukan debugging, response TRACE akan mengembalikan seluruh informasi yang dikirim oleh client
 
 ## HTTP MESSAGE
-'''
+```
 POST /login HTTP/1.1
 Host: example.com
 Connection: keep-alive
@@ -97,29 +97,29 @@ Content-Type: application/json
 Content-Length: 51
 
 {"password": "rahasia", "username": "yogi"}
-'''
+```
 #### START LINE
-'''
+```
 POST /login HTTP/1.1
-'''
+```
 #### HTTP HEADER
 * Host: Authority pada URL
 * Content-Type: Tipe data dari HTTP Body
 * User-Agent: Informasi user agent (seperti browser dan OS)
 * Accept: Tipe data yang diterima oleh Client
 * Authorization: Credential untuk autentikasi (misal usernam + password)
-'''
+```
 Host: example.com
 Connection: keep-alive
 Accept: application/json
 User-Agent: Mozzila/5.0 (Macintosh; Intel Mac OS X 10_15_7)
 Content-Type: application/json
 Content-Length: 51
-'''
+```
 #### HTTP BODY
-'''
+```
 {"password": "rahasia", "username": "yogi"}
-'''
+```
 #### HTTP STATUS
 HTTP Status merupakan kode HTTP Response yang memberi informasi kepada client
 * Informational Response (100-199)
